@@ -1,7 +1,7 @@
 # offsetter
 [![Go Report Card](https://goreportcard.com/badge/github.com/guitmz/offsetter)](https://goreportcard.com/report/github.com/guitmz/offsetter)
 
-Small package to convert between file offsets and virtual addresses (partialy inspired by some code of [pwnlib](https://github.com/Gallopsled/pwntools/tree/dev/pwnlib). For the moment, only `ELF` files are supported.
+Small package to convert between file offsets and virtual addresses (partialy inspired by some code of [pwnlib](https://github.com/Gallopsled/pwntools/tree/dev/pwnlib)). For the moment, only `ELF` files are supported.
 
 # Install
 Install with `go get -u github.com/guitmz/offsetter`
