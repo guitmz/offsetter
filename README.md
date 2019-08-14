@@ -1,6 +1,8 @@
 # offsetter
 [![Go Report Card](https://goreportcard.com/badge/github.com/guitmz/offsetter)](https://goreportcard.com/report/github.com/guitmz/offsetter)
 
+Small package to convert between file offsets and virtual addresses. For the moment, only `ELF` files are supported.
+
 # Install
 Install with `go get -u github.com/guitmz/offsetter`
 
