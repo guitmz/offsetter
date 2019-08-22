@@ -30,6 +30,7 @@ func check(err error) {
 func main() {
 	targetFile, err := elf.Open("/bin/ls")
 	check(err)
+	defer targetFile.Close()
 
 	loadAddress, err := offsetter.GetLoadAddress(targetFile)
 	check(err)
